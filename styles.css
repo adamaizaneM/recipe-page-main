@@ -1,0 +1,153 @@
+/* General Body Styles */
+body {
+    background-color: hsl(30, 18%, 87%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    margin-left:20%;
+  }
+  
+  /* Recipe Card Styles */
+  .recipe-card {
+    width: 600px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 30px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  /* Typography */
+  h1, h2, h3 {
+    color: hsl(14, 45%, 36%);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  /* Section Styles */
+  .preparation-time, .instructions, .ingredients {
+    margin-bottom: 20px;
+  }
+  
+  .preparation-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+  }
+  
+  ul, ol {
+    line-height: 1.8;
+    color: hsl(30, 10%, 34%);
+    margin: 0;
+    padding: 0 20px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  /* Nutrition Section */
+  .nutrition {
+    text-align: center;
+  }
+  
+  .nutrition h2 {
+    font-size: 1.5rem;
+    color: #854d27;
+    margin-bottom: 10px;
+  }
+  
+  .nutrition p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    font-weight: bold;
+    color: #854d27;
+  }
+  
+  td {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  strong {
+    color: #854d27;
+    font-weight: bold;
+  }
+  
+  /* Attribution Section */
+  .attribution {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    color: hsl(30, 10%, 34%);
+  }
+  
+  .attribution a {
+    color: hsl(332, 51%, 32%);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .attribution a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 375px) {
+    .recipe-card {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .recipe-card {
+      width: 800px;
+      padding: 40px;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
